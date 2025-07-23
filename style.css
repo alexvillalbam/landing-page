@@ -34,26 +34,26 @@
   list-style: none;
 }
 
-.header-link a {
+.header-link-text a {
   text-decoration: none;
   padding: 5px 20px;
   font-size: 18px;
   color: #e5e7eb;
 }
 
-.hero-div {
+.hero-parent {
   display: flex;
   justify-content: space-between;
   margin-top: 60px;
 }
 
-.hero-maintext {
+.hero1-main-text {
   font-size: 48px;
   font-weight: 900;
   color: #f9faf8;
 }
 
-.header-text {
+.hero1-text {
   font-size: 18px;
   color: #e5e7eb;
 }
@@ -67,4 +67,56 @@ button {
   border-radius: 8px;
   border-style: none;
   font-weight: bold;
+}
+
+.hero2-main-text {
+  text-align: center;
+}
+
+.illustration-container {
+  display: flex;
+  flex-direction: row;
+  padding: 5% 20%;
+}
+
+.hero2-img {
+  padding: 50px;
+}
+
+.hero3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  padding: 12%;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 250;
+  color: #1f2937;
+}
+
+.thor {
+  font-weight: bold;
+  align-self: flex-end;
+}
+
+.hero4 {
+  padding: 10%;
+  display: flex;
+
+}
+
+.card-container {
+  background-color: #3882f6;
+  border-radius: 10px;
+  padding: 30px 100px;
+    flex-direction: row;
+}
+
+.card-container button {
+  border-style: 2px solid;
+  border-color: #f9faf8;
 }
